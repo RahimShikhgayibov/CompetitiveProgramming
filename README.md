@@ -4,17 +4,17 @@ C++ solutions — CSES, Codeforces, ICPC Azerbaijan and NeetCode 250.
 Goal: ICPC Azerbaijan Regional (Nov 2026) and Codeforces 2000+.
 
 ![Language](https://img.shields.io/badge/Language-C++17-blue)
-![Problems](https://img.shields.io/badge/Solved-2-brightgreen)
+![Problems](https://img.shields.io/badge/Solved-8-brightgreen)
 
 ## Progress
 
 | Platform | Solved |
 |----------|--------|
-| CSES | 0 |
+| CSES | 6 |
 | Codeforces | 1 |
 | ICPC | 0 |
 | NeetCode 250 | 1 |
-| **Total** | **2** |
+| **Total** | **8** |
 
 ## Structure
 

@@ -13,20 +13,25 @@ Goal: ICPC Azerbaijan Regional (Nov 2026) and Codeforces 2000+.
 | CSES | 6 |
 | Codeforces | 1 |
 | ICPC | 0 |
+| LeetCode | 0 |
 | NeetCode 250 | 1 |
 | **Total** | **8** |
 
-## Structure
+## Folders
 
-```
-CSES/<section>/<task id>_<name>.cpp          e.g. CSES/Graph/1666_building_roads.cpp
-Codeforces/Contests/<contest id>/<letter>_<name>.cpp
-Codeforces/Gym/<gym id>_<short name>/<letter>_<name>.cpp
-ICPC/<country>-<year>-<stage>/<letter>_<name>.cpp
-NeetCode250/<topic>/<name>.cpp
-Practice/      learning code that is not a problem
-Templates/     team notebook: tested, ready-to-use templates
-```
+| Folder | What's inside | File name |
+|--------|---------------|-----------|
+| CSES | CSES Problem Set, by section | `CSES/<section>/<task id>_<name>.cpp` |
+| Codeforces | Contest and Gym problems | `Contests/<contest id>/<letter>_<name>.cpp` |
+| ICPC | ICPC Azerbaijan contests | `ICPC/<country>-<year>-<stage>/<letter>_<name>.cpp` |
+| LeetCode | LeetCode problems | `LeetCode/<number>_<name>.cpp` |
+| NeetCode250 | NeetCode 250 list, by topic | `NeetCode250/<topic>/<name>.cpp` |
+| YouKnowWho | YouKnowWho Academy problems (mostly Codeforces) | |
+| Algorithms | Algorithms I've learned (linear search, binary search, ...) | |
+| Problems | Classic / NP problems (Traveling Salesman, ...) | |
+| RealWorld | Algorithms in real life (zip compression, fraud detection, ...) | |
+| Practice | Learning code that is not a problem | |
+| Templates | Team notebook: tested, ready-to-use templates | |
 
 Every solution starts with a header: problem name, link, topic, idea, complexity, upsolve flag.
 

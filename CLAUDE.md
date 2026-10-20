@@ -46,7 +46,12 @@ CompetitiveProgramming/
 │   ├── AZ-2025-Qualification/
 │   │   └── A_fight_against_numbers.cpp
 │   └── AZ-2026-Qualification/
+├── LeetCode/                     (<nömrə>_<ad>.cpp, məs. 200_number_of_islands.cpp)
 ├── NeetCode250/                  (mövcuddur, olduğu kimi qalır)
+├── YouKnowWho/                   (YouKnowWho Academy məsələləri, çoxu Codeforces linkləri)
+├── Algorithms/                   (öyrənilmiş alqoritmlər; indiyədək: linear search, binary search)
+├── Problems/                     (klassik / NP məsələlər: Traveling Salesman və s.)
+├── RealWorld/                    (real həyatda alqoritmlər: zip sıxılması, fraud detection və s.)
 ├── Practice/                     (məsələ olmayan öyrənmə kodları: DFS izləmə, testlər)
 ├── Templates/                    (team notebook: yoxlanmış, hazır şablonlar)
 │   ├── cpp_cheatsheet.md
@@ -87,6 +92,9 @@ ICPC AZ-2025-Q A Fight Against Numbers
 Template: graph DFS
 ```
 
+- **Commit mesajlarına heç vaxt `Co-Authored-By: Claude`, "Generated with Claude Code" və ya başqa Claude/AI atribusiyası yazma.** Bu Rahimin şəxsi GitHub hesabıdır.
+- Commit email: `rehim1718@gmail.com` (GitHub-a bağlı olan budur; iş emaili aktivlik qrafikində sayılmır).
+
 ## README
 
 README-də cədvəl saxlanılır: hər platforma üzrə həll olunan məsələlərin sayı və badge-dəki ümumi say. Yeni həll əlavə olunanda Claude bu sayları yeniləyə bilər.
@@ -112,4 +120,10 @@ README-də cədvəl saxlanılır: hər platforma üzrə həll olunan məsələl�
 - **Növbəti qraf mövzuları:** Counting Rooms (grid DFS) → BFS (Message Route) → Labyrinth (grid BFS) → Dijkstra.
 - **Sonrakı həftə (26 okt – 1 noy):** riyaziyyat — gcd, sadə ədədlər (sieve), modul hesabı, kombinasiyalar.
 - **1–7 noyabr:** yeni mövzu yoxdur, qarışıq məşq və notebook.
-- **Həftə içi:** gündə bir məsələ, 45–60 dəqiqə. Rahim 12 saat işləyir, yükü artırma.
+- Rahim 12 saat işləyir, yükü artırma.
+
+## Ritm
+
+- **Həftə içi** (iş günləri, 12:00–15:00 arası bir fokus bloku): alqoritmlər + LeetCode / NeetCode / YouKnowWho.
+- **Həftəsonu:** Codeforces / ICPC "düşünmə" məsələləri, dərin mövzular, komanda yarışı.
+- **8 noyabra (ICPC Regional) qədər əsas məqsəd ICPC-dir.** `Problems/` və `RealWorld/` üzərində real iş 8 noyabrdan sonra başlayır.

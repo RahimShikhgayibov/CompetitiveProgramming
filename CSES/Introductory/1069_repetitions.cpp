@@ -1,6 +1,6 @@
 // CSES 1069 - Repetitions
 // https://cses.fi/problemset/task/1069
-// Mövzu: strings, implementation
+// Mövzu: string, running max
 // İdeya:
 // Mürəkkəblik: O(n)
 // Upsolve: no
@@ -8,20 +8,27 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
     string s;
-    cin >> s;
+    cin>>s;
 
-    int cur = 1, best = 1;
-    for (size_t i = 1; i < s.size(); i++) {
-        if (s[i] == s[i - 1]) cur++;
-        else cur = 1;
-        best = max(best, cur);
+    int overallCount=1;
+    int temp=1;
+    for(int i=s.size()-1;i>0;i--){
+        if(s[i]==s[i-1]){
+            temp++;
+        }
+        else{
+            temp=1;
+        }
+        if(temp>overallCount){
+            overallCount=temp;
+        }
     }
-
-    cout << best << '\n';
+    cout<<overallCount<<"\n";
     return 0;
 }

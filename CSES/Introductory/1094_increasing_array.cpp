@@ -1,6 +1,6 @@
 // CSES 1094 - Increasing Array
 // https://cses.fi/problemset/task/1094
-// Mövzu: greedy
+// Mövzu: greedy, running max, long long
 // İdeya:
 // Mürəkkəblik: O(n)
 // Upsolve: no
@@ -8,25 +8,26 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
     int n;
-    cin >> n;
+    cin>>n;
 
-    long long prev, x;
-    long long moves = 0;
-    cin >> prev;
+    int prev=0;
+    long long count=0;
 
-    for (int i = 1; i < n; i++) {
-        cin >> x;
-        if (x < prev) {
-            moves += prev - x;
-        } else {
-            prev = x;
+    for(int i=0;i<n;i++){
+        int a;
+        cin>>a;
+        if(prev>a){
+            count=count + prev-a;
+            a=prev;
         }
+        prev=a;
     }
-
-    cout << moves << '\n';
+    cout<<count<<"\n";
+    return 0;
 }

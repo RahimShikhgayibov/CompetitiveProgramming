@@ -1,21 +1,22 @@
 ﻿# Competitive Programming Solutions
 
-C++ solutions — CSES, Codeforces, ICPC Azerbaijan and NeetCode 250.
-Goal: ICPC Azerbaijan Regional (Nov 2026) and Codeforces 2000+.
+C++ solutions — CSES, Codeforces, ICPC, YouKnowWho Academy and NeetCode 250.
+Goal: Codeforces 2000+ and the next ICPC season.
 
 ![Language](https://img.shields.io/badge/Language-C++17-blue)
-![Problems](https://img.shields.io/badge/Solved-8-brightgreen)
+![Problems](https://img.shields.io/badge/Solved-22-brightgreen)
 
 ## Progress
 
 | Platform | Solved |
 |----------|--------|
-| CSES | 6 |
+| CSES | 9 |
 | Codeforces | 1 |
-| ICPC | 0 |
+| ICPC | 3 |
+| YouKnowWho | 8 |
 | LeetCode | 0 |
 | NeetCode 250 | 1 |
-| **Total** | **8** |
+| **Total** | **22** |
 
 ## Folders
 

@@ -5,6 +5,13 @@ Goal: Codeforces 2000+ and the next ICPC season.
 
 ![Language](https://img.shields.io/badge/Language-C++17-blue)
 ![Problems](https://img.shields.io/badge/Solved-22-brightgreen)
+![ICPC](https://img.shields.io/badge/ICPC_2026-NERC_Finalist-orange)
+
+## Achievements
+
+- **ICPC 2026 — NERC finalist.** Passed 2 stages:
+  1. Azerbaijan Qualification (Oct 11, 2026)
+  2. Azerbaijan Regional (Nov 8, 2026)
 
 ## Progress
 
